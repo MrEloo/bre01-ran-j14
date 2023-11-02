@@ -1,0 +1,8 @@
+table {
+    border-collapse: collapse; /* Fusionne les bordures adjacentes */
+}
+
+td, th {
+    border: 1px solid black; /* Définit la bordure de 1 pixel solide de couleur noire */
+    width: 20rem;
+}
