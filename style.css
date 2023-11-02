@@ -1,3 +1,8 @@
+*{
+    color: white;
+    font-weight: 900;
+}
+
 table {
     border-collapse: collapse; /* Fusionne les bordures adjacentes */
 }
@@ -5,4 +10,62 @@ table {
 td, th {
     border: 1px solid black; /* Définit la bordure de 1 pixel solide de couleur noire */
     width: 20rem;
+}
+
+body{
+    background-color: #333634;
+}
+
+#newTask{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    height: 2rem;
+    width: 30rem;
+    margin-left: 5rem;
+    color: black;
+}
+#newTask:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease;
+}
+
+button{
+    position: absolute;
+    top: 0.8rem;
+    left: 45rem;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+    height: 2.5rem;
+    width: 6rem;
+    color: black;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease;
+    background-color: #6c7873;
+    color: black;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+span{
+    margin-left: 40rem;
+    width: 4rem;
+
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+span:hover{
+
+    background-color: white;
+    color: black;
+
 }

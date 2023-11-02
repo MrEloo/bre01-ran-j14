@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", function(){
     
-    let section = document.querySelector("#deuxieme_section")
+    let section = document.querySelector("body > section:last-of-type")
     
     let newTitle = document.createElement("h2")
     let newText = document.createElement("p")
